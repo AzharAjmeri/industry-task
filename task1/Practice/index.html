@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Document</title>
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <header>
+
+        </header>
+        <section>
+            <h1>Practice Document</h1>
+        </section>
+        <main>
+            <div>
+                <h2>Image Map</h2>
+                <img src="img_map.png" alt="image of phone and laptop" usemap="#mymap">
+
+                <map name="mymap">
+                    <area shape="rect" coords="213, 443, 793, 0 " href="#" alt="Laptop">
+                    <area shape="rect" coords="840, 430, 955, 190 " href="#" alt="Phone">
+                </map>
+            </div>
+            <hr/>
+            <div>
+                <h2>Picture</h2>
+                <picture>
+                    <source media="(min-width: 720px)" srcset="p2/lens.jpg">
+                    <source media="(min-width: 480px)" srcset="p2/book.jpg">
+                    <img src="p2/tower.jpeg" alt="">
+                </picture>
+            </div>
+            <hr/>
+            <div>
+                <h2>Combining Diacritical Marks</h2>
+                a&#768;<br/>
+                O&#769;
+            </div>
+            <hr/>
+            <div>
+                <h2>Datalist</h2>
+                <form action="">
+                    <input list="cities" name="city">
+                    <datalist id="cities">
+                      <option value="Ahmedabad">
+                      <option value="Surat">
+                      <option value="Mumbai">
+                      <option value="Gandhinagar">
+                      <option value="Khambhat">
+                    </datalist>
+                    <input type="submit">
+                  </form>                  
+            </div>
+            <hr/>
+            <div>
+                <h2>Using output in form</h2>
+                <form action="" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                    <input type="numeric" name="a">
+                    <input type="numeric" name="b">
+                    <output name="x" for="a b"></output>
+                </form>
+            </div>
+            <hr/>
+            <div>
+                <h2>FORM OPTGROUP</h2>
+                <form action="">
+                    <label for="city">City:</label><br/>
+                    <select name="city" id="city">
+                        <optgroup label="Gujarat">
+                            <option value="1">Ahmedabad</option>
+                            <option value="2">Surat</option>
+                        </optgroup>
+                        <optgroup label="Maharashtra">
+                            <option value="3">Mumbai</option>
+                            <option value="4">Pune</option>
+                        </optgroup>
+                    </select>
+                </form>
+            </div>
+            <hr/>
+        </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+/* Reset */
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.margin-top-1{
+    margin-top: 10px;
+}
+.margin-top-2{
+    margin-top: 20px;
+}
+.margin-top-5{
+    margin-top: 80px;
+}
+.margin-bottom-5{
+    margin-bottom: 100px;
+}
+.margin-bottom-1{
+    margin-bottom: 14px;
+}
+.margin-block-2{
+    margin-block: 20px;
+}
+
+.error-content{
+    color: red;
+}
+
+.uploaded-img-container{
+    padding: 2px;
+}
+
+img{
+    width: 100%;
+}

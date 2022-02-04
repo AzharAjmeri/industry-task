@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-inverse margin-0 border-radius-0">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Project Name</a>
+            </div>
+        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <!--Carousel-->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner carousel-image" role="listbox">
+            <div class="item active blur-bg">
+                <img src="assets/images/lens.jpg" alt="...">
+                <div class="carousel-caption">
+                    <div class="margin-bottom-1">
+                        <h2>Example headline</h2>
+                        <h4 class="line-height-1">Lorem, ipsum dolor sit amet  <span class="alert alert-danger padding-block-0">file://</span> Autem fugit repellat similique ipsa corrupti corporis ea dolor magni aspernatur laudantium, optio voluptatem reiciendis atque odit! Mollitia assumenda fugit dolorum voluptas.</h4>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal-1">
+                            Sign up today
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="item blur-bg">
+                <img src="assets/images/lens.jpg" alt="...">
+                <div class="carousel-caption">
+                    <div class="margin-bottom-1">
+                        <h2>Example headline</h2>
+                        <h4 class="line-height-1">Lorem, ipsum dolor sit amet  <span class="alert alert-danger padding-block-0">file://</span> Autem fugit repellat similique ipsa corrupti corporis ea dolor magni aspernatur laudantium, optio voluptatem reiciendis atque odit! Mollitia assumenda fugit dolorum voluptas.</h4>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal-2">
+                            Sign up today
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="item blur-bg">
+                <img src="assets/images/lens.jpg" alt="...">
+                <div class="carousel-caption">
+                    <div class="margin-bottom-1">
+                        <h2>Example headline</h2>
+                        <h4 class="line-height-1">Lorem, ipsum dolor sit amet  <span class="alert alert-danger padding-block-0">file://</span> Autem fugit repellat similique ipsa corrupti corporis ea dolor magni aspernatur laudantium, optio voluptatem reiciendis atque odit! Mollitia assumenda fugit dolorum voluptas.</h4>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal-3">
+                            Sign up today
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!--Card-section-->
+    <div class="container">
+        <div class="row">
+            <div class="text-center margin-top-5 image-width-half">
+                <div class="col-md-4">
+                    <div class="padding-1">
+                        <img src="assets/images/lens.jpg" class="center-block img-responsive img-circle square-image" alt="...">
+                        <h2>Heading</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas delectus incidunt repellendus. Tempore nulla nesciunt neque voluptatum laudantium, fugit impedit eum, sint accusamus nihil earum sed libero illo eius vel!</p>
+                        <button class="btn btn-default" type="submit">View Details <span class="glyphicon glyphicon-forward" aria-hidden="true"></span></button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="padding-1">
+                        <img src="assets/images/lens.jpg" class="center-block img-responsive img-circle square-image" alt="...">
+                        <h2>Heading</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas delectus incidunt repellendus. Tempore nulla nesciunt neque voluptatum laudantium, fugit impedit eum, sint accusamus nihil earum sed libero illo eius vel!</p>
+                        <button class="btn btn-default" type="submit">View Details <span class="glyphicon glyphicon-forward" aria-hidden="true"></span></button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="padding-1">
+                        <img src="assets/images/lens.jpg" class="center-block img-responsive img-circle square-image" alt="...">
+                        <h2>Heading</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas delectus incidunt repellendus. Tempore nulla nesciunt neque voluptatum laudantium, fugit impedit eum, sint accusamus nihil earum sed libero illo eius vel!</p>
+                        <button class="btn btn-default" type="submit">View Details <span class="glyphicon glyphicon-forward" aria-hidden="true"></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--content section-->
+    <div class="container">
+        <hr>
+        <div class="row">
+            <div class="col-md-7 text-dark">
+                <h1>First featurette heading. <span class="text-light">It'll blow your mind</span></h1>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ut consequuntur quos eligendi delectus et veritatis laboriosam sequi reiciendis natus cupiditate exercitationem quo dolores perspiciatis voluptas, inventore dignissimos temporibus aliquam?</h4>
+                <button class="btn btn-default" type="submit">View Details</button>
+            </div>
+            <div class="col-md-5">
+                <img src="assets/images/lens.jpg" class="img-responsive square-image" alt="">
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-5">
+                <img src="assets/images/lens.jpg" class="img-responsive square-image" alt="">
+            </div>
+            <div class="col-md-7 text-dark">
+                <h1>Oh yeah, it's that good. <span class="text-light">See for yourself.</span></h1>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ut consequuntur quos eligendi delectus et veritatis laboriosam sequi reiciendis natus cupiditate exercitationem quo dolores perspiciatis voluptas, inventore dignissimos temporibus aliquam?</h4>
+                <button class="btn btn-default" type="submit">View Details</button>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-7 text-dark">
+                <h1>And lastly, this one. <span class="text-light">Checkmate.</span></h1>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ut consequuntur quos eligendi delectus et veritatis laboriosam sequi reiciendis natus cupiditate exercitationem quo dolores perspiciatis voluptas, inventore dignissimos temporibus aliquam?</h4>
+                <button class="btn btn-default" type="submit">View Details</button>
+            </div>
+            <div class="col-md-5">
+                <img src="assets/images/lens.jpg" class="img-responsive square-image" alt="">
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!--Table section-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-hover">
+                    <tr>
+                        <th>#</th>
+                        <th>Column heading</th>
+                        <th>Column heading</th>
+                        <th>Column heading</th>
+                    </tr>
+                    <tr class="active">
+                        <th>1</th>
+                        <td>Column Content</td>
+                        <td>Column Content</td>
+                        <td>Column Content</td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td>Column Content</td>
+                        <td>Column Content</td>
+                        <td>Column Content</td>
+                    </tr>
+                    <tr class="success">
+                        <th>3</th>
+                        <td>Column Content</td>
+                        <td>Column Content</td>
+                        <td>Column Content</td>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <td>Column Content</td>
+                        <td>Column Content</td>
+                        <td>Column Content</td>
+                    </tr>
+                    <tr class="warning">
+                        <th>5</th>
+                        <td>Column Content</td>
+                        <td>Column Content</td>
+                        <td>Column Content</td>
+                    </tr>
+                    <tr>
+                        <th>6</th>
+                        <td>Column Content</td>
+                        <td>Column Content</td>
+                        <td>Column Content</td>
+                    </tr>
+                    <tr class="danger">
+                        <th>7</th>
+                        <td>Column Content</td>
+                        <td>Column Content</td>
+                        <td>Column Content</td>
+                    </tr>
+                    <tr>
+                        <th>8</th>
+                        <td>Column Content</td>
+                        <td>Column Content</td>
+                        <td>Column Content</td>
+                    </tr>
+                    <tr class="info">
+                        <th>9</th>
+                        <td>Column Content</td>
+                        <td>Column Content</td>
+                        <td>Column Content</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!--Form section-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputFile">File input</label>
+                      <input type="file" id="exampleInputFile">
+                      <p class="help-block">Example block-level help text here.</p>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox"> Check me out
+                      </label>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                col-md-4
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+                <p class="bg-dark text-white padding-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam blanditiis saepe non voluptatibus cumque, eaque quam laborum ut commodi facilis explicabo nemo minima expedita, repellendus culpa dolorum molestiae odio sed.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer section-->
+    <footer class="bg-dark text-white padding-block-1">
+        <div class="container">
+            <div class="col-md-8">
+                &copy; 2016 Company, Inc.
+                <ul class="list-inline">
+                    <li>Privacy</li>
+                    <li>Terms</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <div class="text-right">
+                    Back to top
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Modal -->
+    <div>
+        <div class="modal fade" id="myModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        Modal-1
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        Modal-2
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="myModal-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        Modal-3
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/library/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

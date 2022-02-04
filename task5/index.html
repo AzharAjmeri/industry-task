@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap -->
+    <link href="assets/library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- font -->
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+    <div class="container margin-top-5">
+        <div class="jumbotron">
+            <h1>Calculator</h1>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <form action="">
+                    <div class="row margin-top-2">
+                        <label class="col-xs-2" for="number1">Number 1: </label>
+                        <div class="col-xs-4">
+                            <input type="text" class="form-control" name="number1" id="number1" placeholder="Enter First Value" />
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="alert alert-danger error-alert" id="error1" role="alert">...</div>
+                        </div>
+                    </div>
+                    <div class="row margin-top-2">
+                        <label class="col-xs-2" for="number2">Number 2: </label>
+                        <div class="col-xs-4">
+                            <input type="text" class="form-control" name="number2" id="number2" placeholder="Enter Second Value" />
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="alert alert-danger error-alert" id="error2" role="alert">...</div>
+                        </div>
+                    </div>
+                    <div class="row margin-top-2">
+                        <label class="col-xs-2" for="operation">Operation: </label>
+                        <div class="col-xs-4">
+                            <select class="form-control" name="operation" id="operation">
+                                <option value="add">Addition</option>
+                                <option value="sub">Subtraction</option>
+                                <option value="mul">Multiplication</option>
+                                <option value="div">Division</option>
+                                <option value="mod">Modulo</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row margin-top-2">
+                        <div class="col-xs-4">
+                            <button type="button" class="btn btn-lg btn-success" onClick="calculate()">Calculate</button>
+                        </div>
+                        <div class="col-xs-2"><h3>OUTPUT:</h3></div>
+                        <div class="col-xs-6">
+                            <div class="alert alert-success" id="output" role="alert">...</div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/library/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>

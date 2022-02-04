@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Task 6</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap -->
+    <link href="assets/library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- owlcarousel -->
+    <link rel="stylesheet" href="assets/library/js/OwlCarousel2-2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/library/js/OwlCarousel2-2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- flex slider -->
+    <link rel="stylesheet" href="assets/library/js/woocommerce-FlexSlider-690832b/flexslider.css">
+
+    <!-- font -->
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+    <div class="container margin-top-2">
+        <div class="jumbotron">
+            <h1>Task 6</h1>
+        </div>
+    </div>
+    <!-- Sliders -->
+    <div class="container">
+        <h1>OWL Carousel</h1>
+        <div class="owl-carousel owl-theme owl-loaded">
+            <div class="owl-stage-outer">
+                <div class="owl-stage">
+                    <div class="owl-item">
+                        <img src="assets/images/lens.jpg" alt="">
+                    </div>
+                    <div class="owl-item">
+                        <img src="assets/images/lens.jpg" alt="">
+                    </div>
+                    <div class="owl-item">
+                        <img src="assets/images/lens.jpg" alt="">
+                    </div>
+                    <div class="owl-item">
+                        <img src="assets/images/lens.jpg" alt="">
+                    </div>
+                    <div class="owl-item">
+                        <img src="assets/images/lens.jpg" alt="">
+                    </div>
+                    <div class="owl-item">
+                        <img src="assets/images/lens.jpg" alt="">
+                    </div>
+                    <div class="owl-item">
+                        <img src="assets/images/lens.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2>Masonry</h2>
+        <h3>Cascading grid layout library</h3>
+        <div class="grid">
+            <div class="grid-item">
+                <img src="assets/images/lens.jpg" alt="">
+            </div>
+            <div class="grid-item grid-item--width2">
+                <img src="assets/images/lens.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="assets/images/lens.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="assets/images/lens.jpg" alt="">
+            </div>
+            <div class="grid-item grid-item--width2">
+                <img src="assets/images/lens.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="assets/images/lens.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="assets/images/lens.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="assets/images/lens.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="assets/images/lens.jpg" alt="">
+            </div>
+        </div>
+
+        <h2>Flex Slider</h2>
+        <div class="flexslider">
+            <ul class="slides">
+              <li data-thumb="assets/images/lens.jpg">
+                <img src="assets/images/lens.jpg" />
+              </li>
+              <li data-thumb="assets/images/lens.jpg">
+                <img src="assets/images/lens.jpg" />
+              </li>
+              <li data-thumb="assets/images/lens.jpg">
+                <img src="assets/images/lens.jpg" />
+              </li>
+              <li data-thumb="assets/images/lens.jpg">
+                <img src="assets/images/lens.jpg" />
+              </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container margin-top-2 margin-bottom-5">
+
+        <!-- Selectors -->
+        <div>
+            <h2>Selector</h2>
+            <ul class="ul-js">
+                <li>First</li>
+                <li>Middle</li>
+                <li>Last</li>
+            </ul>
+            <ul class="ul-js">
+                <li>First</li>
+                <li>Middle</li>
+                <li>Last</li>
+            </ul>
+        </div>
+        <h2>Click Event</h2>
+        <p class="click-event-p">Click Me</p>
+        <p class="click-hide-event-p">Click to Hide Me</p>
+        <p class="double-click-hide-event-p">Double Click to Hide Me</p>
+        <input type="text">
+        <p class="multiple-events">Multiple Event, Click me</p>
+        <p class="toggle-content">Hide and show</p>
+        <button class="toggle-button">Toggle above content</button>
+        <br>
+
+        <!-- Fade -->
+        <h2>Fade</h2>
+        <button class="fade-in">Fade In</button>
+        <button class="fade-out">Fade Out</button>
+        <button class="fade-toggle">Fade Toggle</button>
+        <button class="fade-to">Fade To</button>
+        <div class="square-box bg-warning"></div>
+        <div class="square-box bg-success"></div>
+        <div class="square-box bg-danger"></div>
+
+        <!-- Animation -->
+        <h2>Animation</h2>
+        <button class="animation-button">animate</button>
+        <div class="square-box square-box-animate bg-danger"></div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button id="stop">Stop sliding</button>
+
+        <div id="flip">Click to slide down panel</div>
+        <div id="panel">Hello world!</div>
+
+        
+        <!-- Callback -->
+        <h2>Callback</h2>
+        <button id="callback">Hide/Show Content</button>
+        <p class="callback-p">Hide this content</p>
+
+        <h2>Chainign</h2>
+        <button class="toggle-para-btn">Toggle P</button>
+        <p class="toggle-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+        <br>
+
+        <!-- Attr changing -->
+        <a href="https://www.w3schools.com" title="W3School" id="w3s">W3Schools.com</a>
+        <button class='change-attr'>Change href and title</button>
+
+        <br>
+        <!-- Error -->
+        <img alt="Book" id="book">
+
+        <p id="target">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </p>
+
+        <!-- keydown -->
+        <h2>keydown</h2>
+        <form>
+            <label for="target-input">Type Something:</label>
+            <input id="target-input" type="text">
+            <div id="input-data"></div>
+          </form>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/library/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- owlcarousel -->
+    <script src="assets/library/js/OwlCarousel2-2.3.4/owl.carousel.min.js"></script>
+
+    <!-- masonry -->
+    <script src="assets/library/js/masonry.js"></script>
+
+    <!-- flex slider -->
+    <script src="assets/library/js/woocommerce-FlexSlider-690832b/jquery.flexslider-min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>

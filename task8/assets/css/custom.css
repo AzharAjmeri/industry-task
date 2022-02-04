@@ -1,0 +1,51 @@
+/* Reset */
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.margin-block-2{
+    margin-block: 20px;
+}
+
+/* board */
+.column{
+    padding: 6px;
+    min-height: 50vh;
+}
+.column-container{
+    border: 1px solid #b3b3b3;
+    border-radius: 10px;
+}
+
+/* Card */
+.card{
+    padding: 10px;
+    margin-block: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 10px;
+}
+.card .title{
+    margin-left: 10px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+/* Slider */
+.slider-container{
+    position: relative;
+    overflow: hidden;
+}
+.slide{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: transform 0.5s ease-in-out, opacity 0.5s linear;
+}
+.slide img{
+    width: 100%;
+}
+.slide.active{
+    opacity: 1;
+}

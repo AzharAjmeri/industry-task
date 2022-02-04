@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Task-7</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap -->
+    <link href="assets/library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- font -->
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+
+    <div class="container margin-block-2">
+        <div class="jumbotron">
+            <h1>Task 8</h1>
+            <button id="load-data" class="btn btn-success">Load Data</button>
+            <button onClick="removeData()" class="btn btn-danger">Remove Data</button>
+        </div>
+        <div class="row column-container">
+            <div class="col-xs-4 column" id="to-be-done">
+                <h4 class="text-center">To be done</h4>
+                <hr>
+                <div id="1" class="card">
+                    <button class="btn btn-danger" onClick="removeCard(${i})">X</button>
+                    <div class="title">Car Wash</div>
+                </div>
+            </div>
+            <div class="col-xs-4 column" id="in-progress">
+                <h4 class="text-center">In Progress</h4>
+                <hr>
+                <div id="1" class="card">
+                    <button class="btn btn-danger" onClick="removeCard(${i})">X</button>
+                    <div class="title">Clean windows</div>
+                </div>
+                <div id="1" class="card">
+                    <button class="btn btn-danger" onClick="removeCard(${i})">X</button>
+                    <div class="title">Call Home</div>
+                </div>
+            </div>
+            <div class="col-xs-4 column" id="completed">
+                <h4 class="text-center">Completed</h4>
+                <hr>
+                <div id="1" class="card">
+                    <button class="btn btn-danger" onClick="removeCard(${i})">X</button>
+                    <div class="title">go shopping</div>
+                </div>
+            </div>
+        </div>
+
+
+        <h2>Custom Slider</h2>
+        <p>General code for all three sliders</p>
+        <p>You can change images and timer duration</p>
+        <p>The class name of slide class parent should be unique, <b>example slider-container, slider-container-x, ..</b></p>
+        <hr>
+        <div class="row bg-dark">
+            <div class="col-md-6">
+                <div class="slider-container margin-block-2">
+                    <div class="slide active">
+                      <img src="assets/images/1.png">
+                    </div>
+                    <div class="slide">
+                      <img src="assets/images/2.png">
+                    </div>
+                    <div class="slide">
+                      <img src="assets/images/3.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="slider-container-2 margin-block-2">
+                    <div class="slide active">
+                      <img src="assets/images/4.png">
+                    </div>
+                    <div class="slide">
+                      <img src="assets/images/5.png">
+                    </div>
+                    <div class="slide">
+                      <img src="assets/images/6.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="slider-container-3 margin-block-2">
+                    <div class="slide active">
+                        <img src="assets/images/3.png">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/6.png">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/4.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/library/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>

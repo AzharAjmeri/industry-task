@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Task-7</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap -->
+    <link href="assets/library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- font -->
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+
+    <div class="container margin-block-2">
+        <div class="jumbotron">
+            <h1>Task 7</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-offset-4 col-md-4 col-md-offset-4">
+                <form id="user-form">
+                    <div class="form-group">
+                        <label for="firstname">First Name</label>
+                        <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+                        <small class="error-content"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+                        <small class="error-content"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="user-email">Email</label>
+                        <input type="text" class="form-control" id="user-email" name="user-email" placeholder="Email">
+                        <small class="error-content"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="user-url">URL</label>
+                        <input type="text" class="form-control" id="user-url" name="user-url" placeholder="URL">
+                        <small class="error-content"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="user-phone">Phone Number</label>
+                        <input type="text" class="form-control" id="user-phone" name="user-phone" placeholder="Phone">
+                        <small class="error-content"></small>
+                    </div>
+                    <div class="margin-bottom-1">
+                        <label for="gender">Gender</label><br>
+                        <label class="radio-inline">
+                            <input type="radio" name="gender" id="inlineRadio1" value="male"> Male
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="gender" id="inlineRadio2" value="female"> Female
+                        </label>
+                        <br>
+                        <small id="user-gender" class="error-content"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <textarea class="form-control" id="address" name="address" rows="3"></textarea>
+                        <small class="error-content"></small>
+                    </div>
+                    <div class="margin-bottom-1">
+                        <label for="hobby">Hobby</label>
+                        <select class="form-control" id="hobby" name="hobby">
+                            <option value="none">Select Hobby</option>
+                            <option value="reading">Reading</option>
+                            <option value="dancing">Dancing</option>
+                            <option value="gaming">Gaming</option>
+                        </select>
+                        <small id="user-hobby" class="error-content"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="user-password">Password</label>
+                        <input type="password" class="form-control" id="user-password" name="user-password" placeholder="Password">
+                        <small class="error-content"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="user-password-confirm">Confirm Password</label>
+                        <input type="password" class="form-control" id="user-password-confirm" name="user-password-confirm" placeholder="Confirm Password">
+                        <small id="confirm-password" class="error-content"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="user-image">File input</label>
+                        <input type="file" id="user-image" name="user-image">
+                        <small class="error-content file-error"></small>
+                        <button type="button" class="btn btn-primary margin-top-1" onclick="loadImg()">Load Image</button>
+                        <div class="uploaded-img-container">
+                            <img id="uploaded-img" src="" alt="">
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-success" onclick="formValidation()">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/library/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
